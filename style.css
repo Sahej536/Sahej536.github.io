@@ -33,3 +33,26 @@ h1 {
   font-size: 20px;
   font-family: "Josefin Slab", serif;
 }
+.contact{
+    border:2px solid bisque;
+    margin-top: 20px;
+    float: right;
+    margin-right:25px;
+    color: bisque;
+    font-family: "Josefin Slab", serif;
+    padding:10px;
+    padding-left:20px;
+    border-radius:5px;
+    background-image: url(img/download.jpg);
+}
+a{
+    color:white;
+}
+#foot{
+    margin-top:300px;
+    color:white;
+    background-image: url(img/download.jpg);
+    padding-bottom:50px;
+    background-size:500px;
+    
+}
