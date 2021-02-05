@@ -1,0 +1,35 @@
+* {
+  background: black;
+  margin: 0px;
+  padding: 0px;
+  background-image: url(img/S.jpg);
+  background-size: 1000px;
+}
+h1 {
+  font-family: "Sacramento", cursive;
+  color: bisque;
+  font-weight: bold;
+}
+
+.about {
+  border: 2px solid bisque;
+  margin: 20px 10px;
+  padding-left: 500px;
+  border-radius: 4px;
+  margin-right: 280px;
+}
+.intro {
+  border: 2px solid bisque;
+  color: bisque;
+  margin: 0 10px 0 10px;
+  padding: 50px;
+  border-radius: 20px;
+  background-image: url(img/download.jpg);
+  background-size: 500px;
+}
+.text {
+  background-image: url(img/download.jpg);
+  background-size: 500px;
+  font-size: 20px;
+  font-family: "Josefin Slab", serif;
+}
