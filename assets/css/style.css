@@ -391,13 +391,100 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+/*-----------
+#Hero Section for about page
+--------------------*/
+
+#hero1 {
+  width: 100%;
+  height: 80vh;
+  background: url("../img//History-of-Website-Development-Infographic_0.png") bottom center;
+  background-size: contain;
+  position: relative;
+
+}
+
+#hero1:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero1 .container {
+  padding-top: 72px;
+}
+
+@media (max-width: 992px) {
+  #hero .container {
+    padding-top: 62px;
+  }
+}
+
+#hero1 h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+#hero1 h2 {
+  color: #eee;
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+
+#hero1 .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 35px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: 30px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#hero1 .btn-get-started:hover {
+  background: #5fcf80;
+  border: 2px solid #5fcf80;
+}
+
+@media (min-width: 1024px) {
+  #hero1 {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero1 {
+    height: 100vh;
+  }
+  #hero1 h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero1 h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
 /*--------------------------------------------------------------
-# Hero Section
+# Hero Section for index page
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
   height: 80vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/Top-6-Front-End-Web-Development-Tools-to-Increase-Your-Productivity-in-2020-1.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -557,7 +644,9 @@ section {
 
 .about .content ul {
   padding: 0;
+  list-style: none;
 }
+
 
 .about .content ul li {
   padding-bottom: 10px;
@@ -680,12 +769,22 @@ section {
   font-size: 15px;
   color: #848484;
 }
+.front{
+  text-align: left;
+}
 
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
 .features {
   padding-top: 0px;
+}
+.features{
+  width: 100%;
+  height: 80vh;
+  background: url("../img/Photo.png") top center;
+  background-size: cover;
+  position: relative;
 }
 
 .features .icon-box {
