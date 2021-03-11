@@ -16,6 +16,9 @@ body {
 a {
   color: #5fcf80;
 }
+p{
+  font-size: large;
+}
 
 a:hover {
   color: #86db9f;
@@ -477,6 +480,37 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
   }
 }
+/*----------------------------------
+# Hero section for internet page
+----------------------------------*/
+#hero2 {
+  width: 100%;
+  height: 80vh;
+  background: url("../img/History1.jpg") top center;
+  background-size: cover;
+  position: relative;
+
+}
+/*----------------------------------
+# Hero section for website page
+# hero3 id
+----------------------------------*/
+
+
+
+/*----------------
+#Hero Section for fundamentals page
+# hero4 id
+*/
+#hero4 {
+  width: 100%;
+  height: 80vh;
+  background: url("../img/software-development-preview-for-blo.png") top center;
+  background-size: contain;
+  position: relative;
+
+}
+
 
 /*--------------------------------------------------------------
 # Hero Section for index page
@@ -772,10 +806,53 @@ section {
 .front{
   text-align: left;
 }
+/*---------------------------------------------
+Features5 class for developer2
+--------------------------*/
+.features5{
+  width: 100%;
+  height: 80vh;
+  background: url("../img/Developer2.png") top center;
+  background-size: contain;
+  position: relative;
 
+}
+/*
+Features3 section for website page
+*/
+.features3{
+  width: 100%;
+  height: 80vh;
+  background: url("../img/layout.png") top center;
+  background-size: contain;
+  position: relative;
+}
+/*-------
+Features2 Section for internet page
+*/
+
+.features2{
+  width: 100%;
+  height: 80vh;
+  background: url("../img/The-history-of-the-Internet-summarise-in-few-key-points.png") top center;
+  background-size: contain;
+  position: relative;
+}
 /*--------------------------------------------------------------
-# Features
+# Features for about page
+# features1 class
 --------------------------------------------------------------*/
+
+.features1{
+  width: 100%;
+  height: 80vh;
+  background: url("../img/besthistory.jpg") top center;
+  background-size: cover;
+  position: relative;
+}
+/*--------------------------------------------------------------
+features section 
+--------*/
 .features {
   padding-top: 0px;
 }
@@ -1159,6 +1236,9 @@ section {
 /*--------------------------------------------------------------
 # Events
 --------------------------------------------------------------*/
+.events{
+  margin-left:410px;
+}
 .events .card {
   border: 0;
   padding: 0 30px;
