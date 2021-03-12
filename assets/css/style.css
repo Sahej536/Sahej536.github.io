@@ -597,6 +597,19 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/*-------Hero section for career page
+id=hero8
+----------*/
+#hero8 {
+  width: 100%;
+  height: 80vh;
+  background: url("../img/career1.png.crdownload") top center;
+  background-size: cover;
+  position: relative;
+
+}
+
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -678,7 +691,7 @@ section {
 
 .about .content ul {
   padding: 0;
-  list-style: none;
+  list-style: ;
 }
 
 
@@ -838,6 +851,54 @@ Features2 Section for internet page
   background-size: contain;
   position: relative;
 }
+/*------------------
+# featues0 for aria
+*-------------*/
+.features0{
+  width: 100%;
+  height: 80vh;
+  background: url("../img/disable.png") top center;
+  background-size: contain;
+  position: relative;
+}
+
+/*---------------
+# features9 for security
+# class=features9
+------------------------------*/
+
+.features9{
+  width: 100%;
+  height: 80vh;
+  background: url("../img/The-Ultimate-Guide-Of-HTTP-AND-HTTPS-banner1.jpg") top center;
+  background-size: contain;
+  position: relative;
+}
+/*---------------
+# features8 for frameworks
+# class=features8
+------------------------------*/
+
+.features8{
+  width: 100%;
+  height: 80vh;
+  background: url("../img/bootstrap-illustration.png") top center;
+  background-size: contain;
+  position: relative;
+}
+
+/*--------------------------------------------
+# Features for version.html
+# class=features7
+*/
+.features7{
+  width: 100%;
+  height: 80vh;
+  background: url("../img/GitHub-cheat-sheet-graphic-v1.jpg.crdownload") top center;
+  background-size: contain;
+  position: relative;
+}
+
 /*--------------------------------------------------------------
 # Features for about page
 # features1 class
